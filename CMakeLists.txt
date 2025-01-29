@@ -17,7 +17,7 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 # Create the executable
-add_executable(blink test.c)
+add_executable(blink blink.c)
 
 # Enable USB and UART for the executable
 pico_enable_stdio_usb(blink 1)

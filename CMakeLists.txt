@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.13)
 
+# Set the PICO_BOARD variable
+set(PICO_BOARD pico_w)
+
 # Include the Pico SDK
 include(pico_sdk_import.cmake)
 
 # Define the project
 project(test_project C CXX ASM)
-
-# Set the PICO_BOARD variable
-set(PICO_BOARD pico_w)
 
 # Set the C and C++ standards
 set(CMAKE_C_STANDARD 11)
